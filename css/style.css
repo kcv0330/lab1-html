@@ -1,0 +1,83 @@
+$background: #E7E7E7;
+body{
+	background: $background;
+}
+h1{
+	text-align: center;
+}
+header{
+  width:100%;
+  float:left;
+  
+  nav{
+  ul{
+    list-style:none;
+  }
+  li{
+    display: inline-block;
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #000;
+    border-radius: 10%;
+    a{
+      text-decoration:none;
+      color:#000;
+      text-align:center;
+      
+    }
+  }
+}
+}
+.content_page{
+	width: 100%
+
+}
+.content_info{
+  width:75%;
+  float:left;
+  h2{
+   text-align: center;
+  }
+  p{
+    
+  }
+ 
+}
+.top_students{
+  width:25%;
+  float:left;
+   h2{
+   text-align: center;
+  }
+  p{
+    
+  }
+  img{
+    
+  }
+}
+footer{
+  width:100%;
+  float:left;
+  ul{
+    width:100%;
+    list-style:none;
+    float:left;
+  }
+  li{
+    display: inline-block;
+    float: left;
+    padding: 2%;
+    a{
+      text-decoration:none;
+      span{
+        margin-left: 30%;
+        text-decoration:none;
+      }
+    }
+  }
+  p{
+    text-align: center;
+  }
+}
