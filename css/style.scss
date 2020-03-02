@@ -1,0 +1,128 @@
+$background: #E7E7E7;
+$background_table: #BDBDBD;
+$tr_color:#fff;
+body{
+	background: $background;
+}
+h1{
+	text-align: center;
+}
+header{
+  width:100%;
+  float:left;
+  
+  nav{
+  ul{
+    list-style:none;
+  }
+  li{
+    display: inline-block;
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid #000;
+    border-radius: 10%;
+    a{
+      text-decoration:none;
+      color:#000;
+      text-align:center;
+      
+    }
+  }
+}
+}
+.content_page{
+	width: 100%
+
+}
+.content_info{
+  width:75%;
+  float:left;
+  h2{
+   text-align: center;
+  }
+  p{
+    
+  }
+ 
+}
+.top_students{
+  width:25%;
+  float:left;
+   h2{
+   text-align: center;
+  }
+  p{
+    
+  }
+  img{
+    
+  }
+}
+footer{
+  width:100%;
+  float:left;
+  ul{
+    width:100%;
+    list-style:none;
+    float:left;
+  }
+  li{
+    display: inline-block;
+    float: left;
+    padding: 2%;
+    a{
+      text-decoration:none;
+      span{
+        margin-left: 30%;
+        text-decoration:none;
+      }
+    }
+  }
+  p{
+    text-align: center;
+  }
+}
+/*styles groups*/
+
+.content_table{
+  width:100%;
+  float:left;
+
+  table{
+    width:100%;
+    border:2px solid #000;
+    border-collapse: none;
+    border-spacing: 0px;
+    border-radius: 7px;
+    
+    tr{  
+      td{
+        text-align: center;
+        border-right:2px solid #000;
+      }
+      th{
+        background: $background_table;
+         border-right:2px solid #000;
+      } 
+      td:last-child{
+        border-right:0;
+      }
+      th:last-child{
+         border-right:0;
+      }
+    }
+    tr:nth-child(even) {
+      background-color: $tr_color;
+    }
+  }
+ 
+}
+.group_info{
+  margin-top:20%;
+  p{
+  }
+  img{
+    float:right;
+  }
+}
